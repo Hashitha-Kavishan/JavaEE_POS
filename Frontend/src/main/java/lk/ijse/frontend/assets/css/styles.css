@@ -1,0 +1,49 @@
+#bodyImg {
+    background: url("../img/img1.jpeg");
+    background-size: cover;
+    background-position: right;
+
+}
+
+main{
+    height: 100vh;
+}
+
+
+i:hover{
+    cursor: pointer;
+}
+
+
+
+.overflow-x{
+    overflow-x: hidden !important;
+}
+
+@media all and (min-width: 0) and (max-width: 768px){
+    .full-height{
+        height: 100vh !important;
+    }
+    .extra-height{
+        height: 190vh !important;
+    }
+    .margin{
+        margin-bottom: 5px;
+    }
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff; /* Change the text color on hover */
+    background-color: rgba(255, 103, 0, 0.5); /* Change the background color on hover */
+    border-radius: 5px; /* Optional: Add a border-radius for a rounded look */
+}
+
+.navbar-nav .nav-link.active {
+    color: #ffffff; /* Change the text color for active link */
+    background-color: rgba(255, 103, 0, 0.8); /* Change the background color for active link */
+    border-radius: 5px; /* Optional: Add a border-radius for a rounded look */
+}
+
+.navbar-nav .nav-link.active:hover {
+    background-color: rgba(255, 103, 0, 0.8); /* Keep the active link background color on hover */
+}
